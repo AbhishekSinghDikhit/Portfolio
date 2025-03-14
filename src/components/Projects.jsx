@@ -3,28 +3,25 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'E-Commerce Platform',
-    description: 'A full-stack e-commerce solution with React, Node.js, and MongoDB',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=600',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
-    tags: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS']
+    title: 'StudifyAI',
+    description: 'Developed an AI-powered platform for exam generation, evaluation, PDF summarization, and real-time Q&A using NLP. Integrated ML for automated question generation and a responsive interface for seamless educational support.',
+    image: 'https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?auto=format&fit=crop&q=80&w=600',
+    github: 'https://github.com/AbhishekSinghDikhit/Studify',
+    tags: ['Python', 'FastAPI', 'Gemini API', 'SQLite', 'HTML/CSS', 'JS']
   },
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=600',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
-    tags: ['React', 'Firebase', 'Material-UI']
+    title: 'Fake News Classification App',
+    description: 'Developed a web app for real-time fake news detection using a Decision Tree Classifier, with interactive visualizations powered by Pandas and Streamlit. Enhanced user experience with an intuitive interface for seamless analysis.',
+    image: 'https://images.unsplash.com/photo-1636188540036-1879f679c2b0?auto=format&fit=crop&q=80&w=600',
+    github: 'https://github.com/AbhishekSinghDikhit/FakeNewsClassificationApp',
+    tags: ['Python', 'Numpy', 'Pandas', 'Scikit-learn', 'Streamlit']
   },
   {
-    title: 'Social Media Dashboard',
-    description: 'Analytics dashboard for social media management and monitoring',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600',
-    github: 'https://github.com',
-    demo: 'https://demo.com',
-    tags: ['React', 'D3.js', 'TypeScript']
+    title: 'NeoGemBot',
+    description: 'Developed a conversational AI Telegram bot using Python, and NLP, integrating Gemini AI for enhanced responses. Utilized MongoDB for adaptive learning, achieving a 95% user satisfaction rate.',
+    image: 'https://images.unsplash.com/photo-1654764450278-17bb78c00eb6?auto=format&fit=crop&q=80&w=600',
+    github: 'https://github.com/AbhishekSinghDikhit/NeoGemBot',
+    tags: ['Python', 'MongoDB', 'HuggingFace', 'Telegram', 'Gemini API']
   }
 ];
 
@@ -40,7 +37,7 @@ export default function Projects() {
         >
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Featured Projects</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Here are some of my recent projects that showcase my skills and experience
+            Here are some of my recent projects that showcase my skills and experience.
           </p>
         </motion.div>
 
@@ -52,16 +49,16 @@ export default function Projects() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
             >
               <img
                 src={project.image}
                 alt={project.title}
                 className="w-full h-48 object-cover"
               />
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-grow">
                 <h3 className="text-xl font-bold text-gray-900 mb-2">{project.title}</h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
+                <p className="text-gray-700 mb-4 flex-grow">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag, tagIndex) => (
                     <span
@@ -72,7 +69,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="flex justify-between items-center">
+                <div className="mt-auto pt-4 border-t flex justify-between items-center">
                   <a
                     href={project.github}
                     target="_blank"
@@ -82,7 +79,8 @@ export default function Projects() {
                     <Github size={20} />
                     <span>Code</span>
                   </a>
-                  <a
+                  {/* Uncomment if you want to show a demo link */}
+                  {/* <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -90,7 +88,7 @@ export default function Projects() {
                   >
                     <ExternalLink size={20} />
                     <span>Live Demo</span>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </motion.div>

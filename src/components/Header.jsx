@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuItems = ['About', 'Projects', 'Skills', 'Contact'];
+  const menuItems = ['About', 'Education', 'Projects', 'Skills', 'Contact'];
   
   return (
     <header className="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
@@ -16,7 +16,7 @@ export default function Header() {
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold text-gray-800"
           >
-            Portfolio
+            Abhishek Singh Dikhit
           </motion.div>
 
           {/* Desktop Menu */}
@@ -33,13 +33,13 @@ export default function Header() {
               ))}
             </div>
             <div className="flex items-center space-x-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://github.com/AbhishekSinghDikhit" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/abhishek-singh-dikhit-b2995b206/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:your.email@example.com" className="text-gray-600 hover:text-gray-900">
+              <a href="mailto:aabhishek576@gmail.com" className="text-gray-600 hover:text-gray-900">
                 <Mail size={20} />
               </a>
             </div>
@@ -74,13 +74,13 @@ export default function Header() {
               ))}
             </div>
             <div className="flex items-center space-x-4 mt-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://github.com/AbhishekSinghDikhit" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                 <Github size={20} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
+              <a href="https://www.linkedin.com/in/abhishek-singh-dikhit-b2995b206/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900">
                 <Linkedin size={20} />
               </a>
-              <a href="mailto:your.email@example.com" className="text-gray-600 hover:text-gray-900">
+              <a href="mailto:aabhishek576@gmail.com" className="text-gray-600 hover:text-gray-900">
                 <Mail size={20} />
               </a>
             </div>

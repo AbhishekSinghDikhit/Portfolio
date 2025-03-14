@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <main className="bg-gray-50">
         <Hero />
+        <Education />
         <Projects />
         <Skills />
         <Contact />

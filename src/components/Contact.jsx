@@ -30,7 +30,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                <p className="text-gray-600">your.email@example.com</p>
+                <p className="text-gray-600">aabhishek576@gmail.com</p>
               </div>
             </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">Phone</h3>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+91 8817801639</p>
               </div>
             </div>
 
@@ -50,7 +50,7 @@ export default function Contact() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-gray-900">Location</h3>
-                <p className="text-gray-600">San Francisco, CA</p>
+                <p className="text-gray-600">Kanker, Chhattisgarh, India</p>
               </div>
             </div>
           </motion.div>
