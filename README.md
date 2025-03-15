@@ -21,7 +21,7 @@ This is a **Personal Portfolio Website** built with **Vite, React, and JavaScrip
 
 ---
 
-## 📸 Screenshot  
+## website link 
 https://abhishekdikhit-portfolio-2104.vercel.app/
 
 ---
