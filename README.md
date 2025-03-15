@@ -47,11 +47,11 @@ npm run dev
 Your site will be live at: http://localhost:5173/
 
 
-👤 Author
+##👤 Author
 👨‍💻 Abhishek Singh Dikhit
 
 
-🛡️ License
+##🛡️ License
 This project is MIT Licensed. Feel free to use and modify it.
 
 ⭐ Star this repository if you like it! Happy coding! 🚀
