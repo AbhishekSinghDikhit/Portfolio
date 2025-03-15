@@ -30,5 +30,5 @@ https://abhishekdikhit-portfolio-2104.vercel.app/
 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/AbhishekSinghDikhit/Portfolio.git
+cd Portfolio
