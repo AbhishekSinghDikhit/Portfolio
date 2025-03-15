@@ -10,8 +10,8 @@ const nameVariants = {
 
 // Roles & their respective descriptions
 const roles = [
-  { title: "Data Scientist", description: "A passionate Data Scientist, eager to drive insights from data." },
   { title: "Data Analyst", description: "A passionate Data Analyst, eager to analyze data." },
+  { title: "Data Scientist", description: "A passionate Data Scientist, eager to drive insights from data." },
   { title: "Machine Learning Engineer", description: "A passionate Machine Learning Engineer, eager to create impactful models and solutions." },
 ];
 
@@ -96,7 +96,7 @@ export default function Hero() {
                 View Projects
               </a>
               <a
-                href="https://drive.google.com/file/d/1tNiTKo7owsNQtnoqbp7doSH71x3yQm0E/view"
+                href="https://drive.google.com/file/d/1J7xfETW2J7Gi7LAbziHwSvYyxwrPiByp/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-3 flex items-center gap-2 border-2 border-gray-600 text-gray-700 rounded-lg hover:bg-gray-100 transition-all duration-300"
